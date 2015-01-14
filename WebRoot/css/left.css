@@ -1,0 +1,49 @@
+BODY
+{    
+    background-color: #648DB7;
+}
+
+
+html,body,
+p,ul,ol,li, 
+td,th,dl,dt, 
+blockquote,
+h1,h2,h3,h4,h5	{color:#000; font-family:arial,"Times New Roman",verdana,helvetica,sans-serif;}
+
+
+A:link { TEXT-DECORATION: none; COLOR : #000 }
+A:visited { TEXT-DECORATION: none; COLOR:#000 }
+A:active {  COLOR: #4477BB; TEXT-DECORATION: none; }
+A:hover {  TEXT-DECORATION: none;background:#0099CC; color:#0099CC;zmm:expression(window.status='');}
+A:offsite { COLOR: #ffffff;TEXT-DECORATION: none; }
+
+.MenuItem_m {
+	padding-left:23px;
+	/*background:url(../img/expand.gif) 8px 6px no-repeat;*/	 
+	/* background-color: #ACCDC7;*/	
+	background-color: #648DB7;
+	border-bottom-style: none;
+	/* border-top-color: white;*/
+	height: 25px;
+	font-size:8pt; 
+}
+
+
+.top-level a, 
+.second-level a, 
+.third-level a	{
+	display:block;
+	margin:0;
+	background-color: #f7f7f7;
+	padding:5px 0 5px 0;
+	/*border-top:1px solid #ffffff;*/
+	font-size:8pt; 
+} 
+
+.third-level a	{padding-left:30px;}
+
+table{
+	width: 100%;
+	
+}
+

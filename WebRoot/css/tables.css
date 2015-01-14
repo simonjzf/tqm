@@ -1,0 +1,266 @@
+/*-----------------------------------------------------
+w3 general styles for tables
+Used by: pages with tabular data
+	(e.g. financials, machine specifications)
+Note: Do not use tables to format nontabular data
+	(e.g. margins, text paragraphs, lists)
+$Id: tables.css,v 1.1 2006/11/08 06:30:25 fisher Exp $
+-----------------------------------------------------*/
+
+table {font-size:100%;
+	border-color: black;
+	border-width: 0px;
+	border-style: solid;}
+
+
+
+table caption, 
+table th, 
+table tr, 
+table td, 
+table tr th, 
+table tr td {font-family:arial;}
+
+
+table tr.odd,
+table tr.white {background:#fff;}
+
+table tr.even,
+table tr.gray {background:#ddd;}
+
+table tr.graylight {background:#eeeeee;}
+table tr.yellow {background:#ffff00;}
+
+
+.basic-table {}
+.basic-table td {padding:.3em 1em;}
+.basic-table th {padding:.3em 1em; text-align:center;}
+
+table tr.dark th {color:#fff;} 
+table tr.blue-dark th	{background:#05a; color:#fff;}
+table tr.blue-med-dark th	{background:#47b; color:#fff;}
+table tr.blue-med th	{background:#69c; color:#fff}
+table tr.blue-med-light th	{background:#9be; color:#fff}
+table tr.blue-light th	{color:#cef;}
+table tr.blue-dark-font th {color:#05a}
+
+table tr.black th	{background:#000;color:#fff;}
+table tr.gray-dark th	{background:#666; color:#fff;}
+table tr.gray-med-dark th	{background:#999; color:#fff;}
+table tr.gray-med th	{color:#aaa;}
+table tr.gray-med-light th	{color:#ccc;}
+table tr.gray-light th	{color:#ddd;}
+table tr.gray-lightest th	{color:#eee;}
+
+table tr.green-dark th	{background:#7a3; color:#fff;}
+table tr.green-med-dark th	{background:#9c3; color:#fff;}
+table tr.green-med-dark-ex td {background:#9c3;
+	color:#ffffff;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;}
+table tr.green-med-dark {background:#9c3; color:#ffffff;}
+//table tr.black {background:#000; color:#ffffff;}
+table tr.green-med-light th	{color:#bd6;}
+table tr.green-light th	{color:#dfb;}
+
+
+table tr.yellow-med th	{color:#fe2;}
+table tr.yellow-light th	{color:#ffa;}
+
+table tr.orange-dark th	{background:#c60; color:#fff;}
+table tr.orange-med th	{color:#f90;}
+
+table tr.red-dark th	{background:#a00; color:#fff;}
+table tr.red-med th	{color:#c33;}
+
+table tr.pink-med th	{color:#f76;}
+table tr.pink-light th	{color:#fcc;}
+
+table tr.violet-dark th	{background:#936; color:#fff;}
+table tr.violet-med-dark th	{background:#969; color:#fff;}
+table tr.violet-med-light th	{color:#b7b;}
+table tr.violet-light th	{color:#ede;}
+table tr.violet th {background:#bb77bb; color:#ffffff;}
+
+
+
+
+td.date	{white-space:nowrap;}
+td.number	{text-align:right;}
+td.center	{text-align:center;}
+.up	{color:#7a3; font-weight:bold;}
+.down	{color:#a00; font-weight:bold;}
+
+.table-wrap {width:100%;}
+
+/*--------------- For New SFC Table Style ------------------*/
+/*---------------Search Table Style -----------------------*/
+.sfc-search-table {
+	border-width:1px;
+	border-color:#6699cc;
+	border-style: solid;
+}
+.sfc-search-table td {padding:.3em 1em;
+	border-style: none;
+	background-color: #f7f7f7;
+}
+.sfc-search-table th {padding:.3em 1em;
+background:#6699cc; color:#fff;text-align:left;
+border-style: none;
+	font-weight: 400}
+
+/*---------------Error Table Style -----------------------*/
+.sfc-error-table {
+	border-width:1px;
+	border-color:#cc0000;
+	border-style: solid;
+}
+.sfc-error-table td {padding:.1em 1em;
+	color: #cc0000;
+	font-weight: 900;
+	border-style: none;
+}
+.sfc-error-table th {padding:.1em 10px;
+	color:#fff;text-align:left;
+border-style: none;
+	font-weight: 900;
+	background-color: #cc0000;
+	font-size: 16px}
+
+
+/*---------------Message Table Style -----------------------*/
+.sfc-message-table {
+	border-width:1px;
+	border-color:#99cc33;
+	border-style: solid;
+}
+.sfc-message-table td {padding:.1em 1em;
+	color:#99cc33;
+	font-weight: 900;
+	border-style: none;
+}
+.sfc-message-table th {padding:.1em 10px;
+	color:#fff;text-align:left;
+border-style: none;
+	font-weight: 900;
+	background-color: #99cc33;
+	font-size: 16px}
+
+/*---------------title Table Style -----------------------*/
+.sfc-title-table {
+	table-layout: fixed;
+	border-color:#dddddd;
+	border-style: solid;
+	border-width:1px; 
+	
+}
+.sfc-title-table td {
+	border-style: none;
+	background-color:  #eeeeee;
+	vertical-align: middle;
+	padding: .3em 1em;
+}
+.sfc-title-table th {padding:.2em 1em;
+background:#6699cc; color:#fff;text-align:left;
+border-style: none;
+	font-weight: 900}
+
+/*---------------- Paging table -------------------*/
+
+.sfc-paging-table {
+	table-layout: fixed;
+	border-color:#dddddd;
+	border-style: solid;
+	border-width:1px; 
+	
+}
+.sfc-paging-table td {
+	border-style: none;
+	background-color:  #eeeeee;
+	vertical-align: middle;
+	padding-top: 1px;
+	padding-left: 5px;
+	padding-bottom: 1px;
+	padding-right: 1px;
+}
+
+/*---------------List Table Style -----------------------*/
+.sfc-list-table {
+	border-width:1px;
+	border-color:#6699cc;
+	border-style: solid;
+}
+.sfc-list-table td {padding:.3em 1em;
+	background: #f7f7f7;
+	border-style: none;
+}
+.sfc-list-table th {padding:.2em 1em;
+background:#9be; color:#fff;text-align:left;
+border-style: none;
+font-weight: 900}
+
+/*---------------New Table Style -----------------------*/
+.sfc-new-table {
+	border-width:1px;
+	border-color:#6699cc;
+	border-style: solid;
+}
+.sfc-new-table td {padding:.3em 1em;
+	background: #f7f7f7;
+	border-style: none;
+	text-align: left;
+}
+.sfc-new-table th {padding:.2em 1em;
+background:#99bbee; color:#000;text-align:left;
+border-style: none;
+font-weight: 900}
+
+/*----------- Update Table Style ---------------------*/
+.sfc-update-table {
+	border-width:1px;
+	border-color:#ffee22;
+	border-style: solid;
+}
+.sfc-update-table td {padding:.3em 1em;
+	background: #f7f7f7;
+	border-style: none;
+	text-align: left;
+}
+.sfc-update-table th {padding:.2em 1em;
+background:#ffee22; color:#000;text-align:left;
+border-style: none;
+font-weight: 900}
+
+
+/*--------------Table with blue border -------------------*/
+.sfc-blueborder-table {
+		border-width:1px;
+		border-color:#6699cc;
+		border-style: solid;
+}
+.sfc-blueborder-table td {padding:.3em 1em;
+	background: #eeeeee;
+	border-style: none;
+}
+.sfc-blueborder-table th {padding:.2em 1em;
+background:#9be; color:#fff;text-align:left;
+border-style: none;
+font-weight: 900}
+
+
+/*---------------Logon Table Style -----------------------*/
+.sfc-logon-table {
+	font-size:100%;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;}
+.sfc-logon-table td {padding:.3em 1em;
+	background: #ffffff;
+	border-style: none;
+	text-align: left;
+}
+.sfc-new-table th {padding:.2em 1em;
+background:#99bbee; color:#000;text-align:left;
+border-style:none;
+font-weight: 900}

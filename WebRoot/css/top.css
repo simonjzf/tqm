@@ -1,0 +1,30 @@
+a{
+	text-decoration: none; color: white;	
+}
+
+a:hover {	
+	background-color: green;
+}
+
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.Info {
+	font-family: "Times New Roman", "MS Sans Serif";
+	position:absolute; 
+	/*top:38px; */
+	right:0px; 
+	color:#fff; 
+	font-size:9pt; 
+	font-weight:bold;
+	padding:0 .25em .1em .5em; 
+	text-decoration:none;
+	/* border-left:1px solid #8ae;  */
+	margin-left:0px;	
+	
+}
